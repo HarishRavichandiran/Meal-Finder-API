@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://media.istockphoto.com/id/1474808401/photo/portrait-cafe-waiter-and-black-woman-with-tablet-to-manage-orders-inventory-and-stock-coffee.webp?b=1&s=170667a&w=0&k=20&c=jmuRCjuldBj1CQjHXsUaY8fSmTHrwuM6hSr1Gw9GeFg='); /* Replace with your image file path */
+    background-size: cover; /* This ensures the image covers the entire viewport */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* This fixes the background image */
+}
+
+
+
+header {
+    background-color: #e60b0b;
+    color: #211e1e;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.search-form {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 0.5rem;
+}
+
+button {
+    background-color: #4124c0;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.results {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.recipe-card {
+    border: 1px solid #25d40a;
+    padding: 1rem;
+    max-width: 300px;
+    flex: 1;
+}
+
+.recipe-card img {
+    max-width: 100%;
+}
+
+.recipe-card a {
+    display: block;
+    text-align: center;
+    background-color: #333;
+    color: #1170a7;
+    padding: 0.5rem;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+
+h2 {
+    color: green;
+    text-shadow: #25d40a;
+    text-emphasis-color: blue;
+
+}
